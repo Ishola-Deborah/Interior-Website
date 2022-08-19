@@ -598,31 +598,6 @@ input[type=number] {
 }
 
 
-.social-links {
-    margin-top: 1.2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-/* .social-link {
-    margin-right: 0.6rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 2.4rem;
-    width: 2.4rem;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    border: 2px solid #fff;
-    cursor: pointer;
-} */
-
-
 .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
