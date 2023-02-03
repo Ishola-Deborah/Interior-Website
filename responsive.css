@@ -1,311 +1,307 @@
 @media screen and (max-width: 1400px) {
-    .wrapper .filter-menu {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
+  .wrapper .filter-menu {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 
-    .gallery .filter-items {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-    .about-image {
-        height: 480px;
-    }
+  .gallery .filter-items {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .about-image {
+    height: 480px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .about-wrap {
-        padding: 0 1rem 6rem 1rem;
-    }
+  .about-wrap {
+    padding: 0 1rem 6rem 1rem;
+  }
 
-    .about-image {
-        width: 48%;
-    }
+  .about-image {
+    width: 48%;
+  }
 }
 
 @media screen and (max-width: 1120px) {
-    .main-menu ul li {
-        padding: 0 0.2rem;
-    }
-    .about-image {
-        height: 520px;
-    }
+  .main-menu ul li {
+    padding: 0 0.2rem;
+  }
+  .about-image {
+    height: 520px;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .main-menu {
-        position: relative;
-        top: initial;
-        left: initial;
-        -webkit-transform: translate(0, 0);
-        -ms-transform: translate(0, 0);
-        transform: translate(0, 0);
-    }
+  .main-menu {
+    position: relative;
+    top: initial;
+    left: initial;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
 
-    .about-image {
-        height: 600px;
-    }
+  .about-image {
+    height: 600px;
+  }
 }
 
-
-
 @media screen and (max-width: 920px) {
-    .carousel-caption {
-        width: 600px;
-    }
+  .carousel-caption {
+    width: 600px;
+  }
 
-    .carousel-caption h5 {
-        font-size: 3rem;
-    }
+  .carousel-caption h5 {
+    font-size: 3rem;
+  }
 
-    .about-image {
-        height: 640px;
-    }
+  .about-image {
+    height: 640px;
+  }
 }
 
 @media screen and (max-width: 840px) {
-    .about {
-        padding-bottom: 0;
-    }
+  .about {
+    padding-bottom: 0;
+  }
 
-    .about-wrap {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding-bottom: 4rem;
-    }
+  .about-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 4rem;
+  }
 
-    .about-wrap-2 {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-    }
+  .about-wrap-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
 
-    .about-image {
-        width: 100%;
-    }
+  .about-image {
+    width: 100%;
+  }
 
-    .about-description {
-        padding-top: 2rem;
-        width: 100%;
-    }
+  .about-description {
+    padding-top: 2rem;
+    width: 100%;
+  }
 }
-
-
+.navbar {
+  background: black;
+}
 @media screen and (max-width: 780px) {
-    .navbar-brand {
-        padding-left: 2rem;
-    }
+  .navbar-brand {
+    padding-left: 2rem;
+  }
 
-    .carousel-caption {
-        width: 500px;
-    }
+  .carousel-caption {
+    width: 500px;
+  }
 
-    .carousel-caption h5 {
-        font-size: 2.6rem;
-    }
+  .carousel-caption h5 {
+    font-size: 2.6rem;
+  }
 
-    .carousel-caption p {
-        padding: 0.8rem 1rem;
-    }
+  .carousel-caption p {
+    padding: 0.8rem 1rem;
+  }
 
-    .carousel-caption p a {
-        font-size: 1.1rem;
-    }
+  .carousel-caption p a {
+    font-size: 1.1rem;
+  }
 
-    .contact-wrap {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .contact-form {
-        width: 100%;
-        margin-top: 3rem;
-    }
+  .contact-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 100%;
+    margin-top: 3rem;
+  }
 
-    .footer-col {
-        width: 50%;
-    }
+  .footer-col {
+    width: 50%;
+  }
 }
-
 
 @media screen and (max-width: 660px) {
-    .navbar-brand {
-        padding-left: 0.6rem;
-    }
+  .navbar-brand {
+    padding-left: 0.6rem;
+  }
 
-    .about-image {
-        height: 520px;
-    }
+  .about-image {
+    height: 520px;
+  }
 }
 @media screen and (max-width: 580px) {
-    .contact {
-        padding: 3rem 0 5rem 0;
-    }
+  .contact {
+    padding: 3rem 0 5rem 0;
+  }
 
-    .contact-wrap {
-        padding: 0 2rem;
-    }
+  .contact-wrap {
+    padding: 0 2rem;
+  }
 }
 
-
 @media screen and (max-width: 520px) {
-    .carousel-caption {
-        width: 380px;
-    }
-    .carousel-caption h5 {
-        font-size: 2.2rem;
-    }
-    .about-image {
-        height: 460px;
-    }
+  .carousel-caption {
+    width: 380px;
+  }
+  .carousel-caption h5 {
+    font-size: 2.2rem;
+  }
+  .about-image {
+    height: 460px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-    .about-image {
-        height: 400px;
-    }
+  .about-image {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 420px) {
-    .about-image {
-        height: 380px;
-    }
+  .about-image {
+    height: 380px;
+  }
 
-    .carousel-caption {
-        width: 280px;
-    }
+  .carousel-caption {
+    width: 280px;
+  }
 
-    .carousel-caption h5 {
-        font-size: 1.7rem;
-    }
+  .carousel-caption h5 {
+    font-size: 1.7rem;
+  }
 
-    .carousel-caption p {
-        padding: 0.5rem 0.7rem;
-    }
+  .carousel-caption p {
+    padding: 0.5rem 0.7rem;
+  }
 
-    .carousel-caption p a {
-        font-size: 0.8rem;
-    }
-    .copyright p {
-        font-size: 0.9rem;
-    }
+  .carousel-caption p a {
+    font-size: 0.8rem;
+  }
+  .copyright p {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .about-description h3 {
-        font-size: 1.4rem;
-    }
+  .about-description h3 {
+    font-size: 1.4rem;
+  }
 
-    .about-description h1 {
-        font-size: 2.2rem;
-    }
+  .about-description h1 {
+    font-size: 2.2rem;
+  }
 
-    .about-description p {
-        font-size: 1.1rem;
-    }
+  .about-description p {
+    font-size: 1.1rem;
+  }
 
-    .navbar-brand img {
-        height: 3rem;
-        width: 7rem;
-    }
-    .contact-wrap {
-        padding: 0 1rem;
-    }
+  .navbar-brand img {
+    height: 3rem;
+    width: 7rem;
+  }
+  .contact-wrap {
+    padding: 0 1rem;
+  }
 
-    .copyright p {
-        font-size: 0.8rem;
-    }
+  .copyright p {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 380px) {
-    .about-image {
-        height: 320px;
-    }
-    .card {
-        min-width: 100%;
-        height: 21rem;
-    }
+  .about-image {
+    height: 320px;
+  }
+  .card {
+    min-width: 100%;
+    height: 21rem;
+  }
 
-    .card .card-text-content p {
-        font-size: 2.6rem;
-    }
+  .card .card-text-content p {
+    font-size: 2.6rem;
+  }
 }
 
 @media screen and (max-width: 360px) {
-    .about-image {
-        height: 300px;
-    }
-    .card {
-        height: 20rem;
-    }
+  .about-image {
+    height: 300px;
+  }
+  .card {
+    height: 20rem;
+  }
 
-    .filter-items .filter-content {
-        min-width: 100%;
-    }
+  .filter-items .filter-content {
+    min-width: 100%;
+  }
 
-    .card .card-text-content p {
-        font-size: 2rem;
-    }
-    .filter-menu li {
-        padding: 0.2rem 1rem;
-        font-size: 1rem;
-        border-radius: 0.1rem;
-    }
+  .card .card-text-content p {
+    font-size: 2rem;
+  }
+  .filter-menu li {
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.1rem;
+  }
 
-    .filter-items .filter-content {
-        height: 260px;
-    }
+  .filter-items .filter-content {
+    height: 260px;
+  }
 }
 
 @media screen and (max-width: 340px) {
-    .about-image {
-        height: 280px;
-    }
+  .about-image {
+    height: 280px;
+  }
 
-    .about-description h3 {
-        font-size: 1.3rem;
-    }
+  .about-description h3 {
+    font-size: 1.3rem;
+  }
 
-    .about-description h1 {
-        font-size: 2rem;
-    }
+  .about-description h1 {
+    font-size: 2rem;
+  }
 
-    .about-description p {
-        font-size: 1rem;
-    }
-    .contact {
-        padding: 2rem 0 3rem 0;
-    }
+  .about-description p {
+    font-size: 1rem;
+  }
+  .contact {
+    padding: 2rem 0 3rem 0;
+  }
 
-    .copyright p {
-        font-size: 0.7rem;
-    }
+  .copyright p {
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .navbar-brand img {
-        height: 2.2rem;
-        width: 5rem;
-    }
+  .navbar-brand img {
+    height: 2.2rem;
+    width: 5rem;
+  }
 
-    .nav-content .quote-btn {
-        top: 0.3rem;
-        right: 5.2rem;
-    }
+  .nav-content .quote-btn {
+    top: 0.3rem;
+    right: 5.2rem;
+  }
 
-    .nav-content .quote-btn a {
-        font-size: 0.6rem;
-        font-weight: bold;
-    }
+  .nav-content .quote-btn a {
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
 
-    .card {
-        height: 18rem;
-    }
-     
+  .card {
+    height: 18rem;
+  }
 }
